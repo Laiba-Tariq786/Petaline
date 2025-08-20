@@ -1374,9 +1374,8 @@ document.addEventListener('DOMContentLoaded', () => {
   try {
     const productManager = new ProductManager();
     // Assign to window only if needed for debugging
-    if (process.env.NODE_ENV === 'development') {
-      window.productManager = productManager;
-    }
+    // For debugging purposes, always assign (or remove entirely)
+    window.productManager = productManager;
   } 
   catch (error) {
     console.error('Failed to initialize product manager:', error);

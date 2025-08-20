@@ -143,7 +143,7 @@ document.addEventListener('DOMContentLoaded', function() {
         function addPetal() {
             const petal = document.createElement('div');
             petal.className = 'floating-petal';
-            petal.innerHTML = petalEmojis[Math.floor(Math.random() * petalEmojis.length)];
+            // petal.innerHTML = petalEmojis[Math.floor(Math.random() * petalEmojis.length)];
             
             // Random starting position
             petal.style.position = 'absolute';
@@ -158,7 +158,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const duration = Math.random() * 8000 + 12000; // 12-20 seconds
             const drift = (Math.random() - 0.5) * 200; // Side drift
             
-            petalsContainer.appendChild(petal);
+            // petalsContainer.appendChild(petal);
             
             // Animate the petal falling
             petal.animate([
