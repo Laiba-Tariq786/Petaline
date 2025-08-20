@@ -323,7 +323,7 @@ arrowleft.onclick = () => {
                 pic1.classList.remove("pic1animateclass");
                 pic2.classList.remove("pic2animateclass");
                 pic3.classList.remove("pic3newanimateclass");
-            }, 500);
+            }, 300);
             
             break;
         }
@@ -354,7 +354,7 @@ arrowright.onclick = () => {
                 pic1.classList.remove("pic1animateclass");
                 pic2.classList.remove("pic2animateclass");
                 pic3.classList.remove("pic3newanimateclass");
-            }, 500);
+            }, 300);
             
             break;
         }
@@ -367,14 +367,14 @@ arrowright.onclick = () => {
 // }, 5000);
 
 // Pause auto-slide on hover
-let sliderContainer = document.querySelector(".picsall");
-sliderContainer.addEventListener("mouseenter", () => {
-    clearInterval(autoSlide);
-});
+// let sliderContainer = document.querySelector(".picsall");
+// sliderContainer.addEventListener("mouseenter", () => {
+//     clearInterval(autoSlide);
+// });
 
-sliderContainer.addEventListener("mouseleave", () => {
-    autoSlide = setInterval(() => {
-        arrowright.click();
-    }, 5000);
-});
+// sliderContainer.addEventListener("mouseleave", () => {
+//     autoSlide = setInterval(() => {
+//         arrowright.click();
+//     }, 5000);
+// });
 });

@@ -322,9 +322,17 @@ transition: transform 1s ease-in;
 .call:hover{
      color: white;
     border:solid 2px #ff8da1; 
-    background-color:#ff9999;
+    background-color:#ff8da1;
     transform: translateY(-10px);
 }
+
+.call:hover a{
+     color: white;
+    border:solid 2px #ff8da1; 
+    background-color:#ff8da1;
+    transform: translateY(-10px);
+}
+
 #contactheader{
     background-image: url("Background of Contact Webpage.jpg");
     height: 900px;
