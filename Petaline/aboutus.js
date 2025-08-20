@@ -179,12 +179,12 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         // Add petals periodically
-        setInterval(addPetal, 3000);
+        // setInterval(addPetal, 3000);
         
         // Add initial petals
-        for(let i = 0; i < 3; i++) {
-            setTimeout(addPetal, i * 1000);
-        }
+        // for(let i = 0; i < 3; i++) {
+        //     setTimeout(addPetal, i * 1000);
+        // }
     }
     
     // Parallax scroll effect
