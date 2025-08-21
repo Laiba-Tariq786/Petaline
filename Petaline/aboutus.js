@@ -456,7 +456,7 @@ const images = [
     { 
         src: '/Assests/aboutus/5.jpg',
         name: 'Sarah Johnson',
-        title: 'Creative Director',
+        title: 'Director',
         alt: 'Professional portrait 2'
     },
     { 
@@ -468,7 +468,7 @@ const images = [
     { 
         src: '/Assests/aboutus/6.png',
         name: 'Emma Wilson',
-        title: 'Art Director',
+        title: 'Colleague',
         alt: 'Professional portrait 4'
     },
     { 
@@ -486,7 +486,7 @@ const images = [
     { 
         src: '/Assests/aboutus/1.jpg',
         name: 'Moon Ga Young',
-        title: 'Tech Lead',
+        title: 'Colleague',
         alt: 'Professional portrait 7'
     }
 ];
