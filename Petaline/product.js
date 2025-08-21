@@ -183,14 +183,14 @@ class ProductManager {
       </div>
       <div class="quantity-controls">
         <button class="quantity-btn" aria-label="Decrease quantity" data-action="decrease">
-          <i class="fas fa-minus" aria-hidden="true"></i>
+          <img src="./Assests/products/minus.png" alt="Decrease" class="quantity-icon">
         </button>
         <input type="number" class="quantity-input" 
                value="${this.quantities[product.id] || this.MIN_QUANTITY}" 
                min="${this.MIN_QUANTITY}" max="${this.MAX_QUANTITY}" 
                aria-label="Quantity" data-product-id="${product.id}">
         <button class="quantity-btn" aria-label="Increase quantity" data-action="increase">
-          <i class="fas fa-plus" aria-hidden="true"></i>
+          <img src="./Assests/products/plus.png" alt="Increase" class="quantity-icon">
         </button>
       </div>
       <button class="add-to-cart" aria-label="Add ${product.name} to cart">

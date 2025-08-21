@@ -11,6 +11,97 @@ body {
     /* padding: 20px; */
 }
 
+/* Quantity Controls Container */
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 15px 0;
+  padding: 8px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+}
+
+/* Quantity Buttons */
+.quantity-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  /* border: 2px solid #dee2e6; */
+  /* border-radius: 50%; */
+  /* background: #ffffff; */
+  cursor: pointer;
+  transition: all 0.2s ease;
+  padding: 0;
+}
+
+.quantity-btn:hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  
+  cursor: pointer;
+  /* transform: translateX(1); */
+  /* transition: all 0.2s ease; */
+  /* padding: 0; */
+}
+
+/* .quantity-btn:active {
+  transform: translateY(0);
+} */
+
+.quantity-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  background: #f5f5f5;
+  border-color: #e0e0e0;
+}
+
+/* Quantity Icons */
+.quantity-icon {
+  width: 29px;
+  height: 29px;
+  pointer-events: none;
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+}
+
+/* .quantity-btn:hover .quantity-icon {
+  opacity: 1;
+}
+
+.quantity-btn:disabled .quantity-icon {
+  opacity: 0.4;
+} */
+
+/* Quantity Input */
+.quantity-input {
+  width: 50px;
+  height: 36px;
+  border: 2px solid #dee2e6;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  background: #ffffff;
+  transition: border-color 0.2s ease;
+}
+
+.quantity-input::-webkit-outer-spin-button,
+.quantity-input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0 !important;
+}
+/* 
+.quantity-input {
+  -moz-appearance: textfield !important;
+} */
 
 .container {
     max-width: 1050px;
@@ -220,34 +311,34 @@ body {
 }
 
 .quantity-btn {
-    background: linear-gradient(135deg, #ff8da1, #ffadb8);
+    /* background: linear-gradient(135deg, #ff8da1, #ffadb8); */
     color: white;
     border: none;
-    width: 30px;
-    height: 30px;
+    width: 27px;
+    height: 27px;
     border-radius: 50%;
     cursor: pointer;
     font-size: 14px;
     font-weight: bold;
-    transition: all 0.3s ease;
+    /* transition: all 0.3s ease; */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.quantity-btn:hover {
+/* .quantity-btn:hover {
     transform: scale(1.1);
-    box-shadow: 0 4px 15px rgba(255, 141, 161, 0.3);
-}
+    /* box-shadow: 0 4px 15px rgba(255, 141, 161, 0.3); */
+
 
 .quantity-input {
     width: 50px;
     height: 35px;
     text-align: center;
-    border: 2px solid #ddd;
+    /* border: 2px solid #ff5581; */
     border-radius: 8px;
     font-weight: bold;
-    color: #333;
+    color: black;
     font-size: 14px;
 }
 

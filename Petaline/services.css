@@ -400,12 +400,25 @@ img {
 }
 
 .faq-image {
-    width: 70%;
-    height: 580px;
+    width: 35vw;
+    height: 440px;
     align-items: center;
     border-radius: 25px;
     overflow: hidden;
     box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    object-fit: fill;
+    /* margin-bottom: 2rem; */
+    /* position: relative; */
+}
+
+.faq-image video{
+    width: 35vw;
+    height: 440px;
+    align-items: center;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    object-fit: cover;
     /* margin-bottom: 2rem; */
     /* position: relative; */
 }
@@ -422,9 +435,9 @@ img {
 }
 
 .faq-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    width: 50%;
+    height: 50%;
+    /* object-fit: cover; */
 }
 
 .faq-description {

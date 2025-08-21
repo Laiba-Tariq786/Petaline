@@ -241,13 +241,13 @@ class CartManager {
             <div class="cart-item-controls">
                 <div class="cart-quantity-controls">
                     <button class="cart-quantity-btn decrease-btn" data-action="decrease" data-item-id="${item.id}">
-                        <i class="fas fa-minus"></i>
+                        <img src="./Assests/products/minus.png" alt="Decrease" class="quantity-icon">
                     </button>
                     <input type="number" class="cart-quantity-input" 
                            value="${item.quantity}" min="1" max="${this.MAX_QUANTITY_PER_ITEM}"
                            data-item-id="${item.id}">
                     <button class="cart-quantity-btn increase-btn" data-action="increase" data-item-id="${item.id}">
-                        <i class="fas fa-plus"></i>
+                        <img src="./Assests/products/plus.png" alt="Increase" class="quantity-icon">
                     </button>
                 </div>
                 <div class="cart-item-price">

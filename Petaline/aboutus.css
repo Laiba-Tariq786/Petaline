@@ -377,17 +377,18 @@
 .shop-feature {
   text-align: center;
   flex: 1 1 200px;
-  margin: 20px;
+  /* margin: 20 px; */
 }
 
 .shop-feature img {
-  width: 100px;
-  margin-bottom: -13px;
+  width: 135px;
+  /* margin-bottom: -13px; */
 }
 
 .shop-feature h4 {
-  margin-top: 21px;
-  margin-bottom: 6px;
+  /* margin-top: 21px; */
+  /* margin-bottom: 6px; */
+  font-size: larger;
   color: white;
 }
 
@@ -470,7 +471,7 @@ body {
     border-radius: 20px;
     font-size: 12px;
     font-weight: 600;
-    color: #ffffff;
+    color: #ff8da1;
     cursor: pointer;
     transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
     backdrop-filter: blur(10px);
@@ -481,6 +482,10 @@ body {
     opacity: 0;
 }
 
+.view-button:hover{
+    color: white;
+    background-color: #ff8da1;
+}
 /* Center image */
 .image-container.center {
     width: 320px;
