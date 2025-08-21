@@ -448,44 +448,44 @@ document.addEventListener('DOMContentLoaded', function() {
 // Image data with names and simplified titles
 const images = [
     { 
-        src: '/assests/aboutus/7.png',
-        name: 'Donald Griffin',
+        src: '/Assests/aboutus/7.png',
+        name: 'Adeela Haq',
         title: 'CEO',
         alt: 'Professional portrait 1'
     },
     { 
-        src: '/assests/aboutus/5.jpg',
+        src: '/Assests/aboutus/5.jpg',
         name: 'Sarah Johnson',
         title: 'Creative Director',
         alt: 'Professional portrait 2'
     },
     { 
-        src: '/assests/aboutus/4.jpg',
-        name: 'Michael Chen',
+        src: '/Assests/aboutus/4.jpg',
+        name: 'Emma Watson',
         title: 'Photographer',
         alt: 'Professional portrait 3'
     },
     { 
-        src: '/assests/aboutus/6.png',
+        src: '/Assests/aboutus/6.png',
         name: 'Emma Wilson',
         title: 'Art Director',
         alt: 'Professional portrait 4'
     },
     { 
-        src: '/assests/aboutus/3.jpg',
-        name: 'James Rodriguez',
+        src: '/Assests/aboutus/3.jpg',
+        name: 'Imama Salaar',
         title: 'Designer',
         alt: 'Professional portrait 5'
     },
     { 
-        src: '/assests/aboutus/2.jpg',
+        src: '/Assests/aboutus/2.jpg',
         name: 'Lisa Anderson',
         title: 'Manager',
         alt: 'Professional portrait 6'
     },
     { 
-        src: '/assests/aboutus/1.jpg',
-        name: 'David Park',
+        src: '/Assests/aboutus/1.jpg',
+        name: 'Moon Ga Young',
         title: 'Tech Lead',
         alt: 'Professional portrait 7'
     }
